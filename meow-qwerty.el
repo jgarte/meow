@@ -83,7 +83,7 @@
    '("'" . repeat)
    '("<escape>" . ignore)))
 
-(meow-normal-define-key
+(meow-leader-define-key
  '("r" . raise-sexp))
 
 (meow-setup)
